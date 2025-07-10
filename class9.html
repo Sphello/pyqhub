@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📚 Class 9 Subjects | PYQ Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Rubik', sans-serif;
+      background: #f4f7fa;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #1d3557;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      animation: slideDown 1s ease;
+    }
+
+    p {
+      color: #555;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .subject-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 90%;
+      max-width: 400px;
+      animation: fadeUp 2s ease;
+    }
+
+    .subject-buttons a {
+      text-decoration: none;
+      padding: 1rem;
+      background: linear-gradient(145deg, #d1eaff, #ffffff);
+      border: 2px solid #1d3557;
+      border-radius: 15px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #1d3557;
+      text-align: center;
+      transition: all 0.3s ease;
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .subject-buttons a:hover {
+      background: #1d3557;
+      color: #fff;
+      transform: scale(1.03);
+      box-shadow: 0 8px 25px rgba(29, 53, 87, 0.3);
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+      text-align: center;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>👩‍🏫 Class 9 Subjects</h1>
+  <p>Choose a subject to explore all chapters 📘</p>
+
+  <div class="subject-buttons">
+    <a href="class9/class9_maths.html">📐 Mathematics</a>
+    <a href="class9/class9_science.html">🔬 Science</a>
+    <a href="#">🌍 Social Science</a>
+    <a href="#">📖 English</a>
+    <a href="#">📝 Hindi</a>
+  </div>
+
+  <footer>Made with ❤️ by SP | © PYQ Hub 2025</footer>
+</body>
+</html>

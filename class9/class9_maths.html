@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Class 9 Maths - PYQ Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+      color: #333;
+      animation: fadeIn 1s ease-in;
+    }
+
+    header {
+      background-color: #2196f3;
+      color: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      animation: slideDown 0.7s ease-in-out;
+    }
+
+    .logo {
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    .chapter-section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      animation: zoomIn 1s ease-in-out;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #0d47a1;
+    }
+
+    .chapter-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .chapter-list li {
+      margin: 1rem 0;
+      padding: 1rem 1.5rem;
+      background: #e3f2fd;
+      border-left: 6px solid #42a5f5;
+      border-radius: 8px;
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      animation: fadeSlideIn 0.5s ease forwards;
+    }
+
+    .chapter-list li::before {
+      content: "➡️";
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .chapter-list li:hover {
+      background: #bbdefb;
+      transform: translateX(10px);
+      box-shadow: 0 5px 15px rgba(66, 165, 245, 0.4);
+    }
+
+    .chapter-list li a {
+      color: #0d47a1;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding-left: 25px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeSlideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div style="display: flex; align-items: center;">
+      <img src="../assets/logo.png" alt="PYQ Hub Logo" class="logo" />
+      <h1>Class 9 - Maths</h1>
+    </div>
+  </header>
+
+  <section class="chapter-section">
+    <h2>📘 All Chapters of Class 9 Maths</h2>
+    <ul class="chapter-list">
+      <li><a href="../pdfs/class9/maths/ch1-number-systems.pdf" target="_blank">Chapter 1: Number Systems</a></li>
+      <li><a href="../pdfs/class9/maths/ch2-polynomials.pdf" target="_blank">Chapter 2: Polynomials</a></li>
+      <li><a href="../pdfs/class9/maths/ch3-coordinate-geometry.pdf" target="_blank">Chapter 3: Coordinate Geometry</a></li>
+      <li><a href="../pdfs/class9/maths/ch4-linear-equations.pdf" target="_blank">Chapter 4: Linear Equations in Two Variables</a></li>
+      <li><a href="../pdfs/class9/maths/ch5-euclids-geometry.pdf" target="_blank">Chapter 5: Euclid's Geometry</a></li>
+      <li><a href="../pdfs/class9/maths/ch6-lines-angles.pdf" target="_blank">Chapter 6: Lines and Angles</a></li>
+      <li><a href="../pdfs/class9/maths/ch7-triangles.pdf" target="_blank">Chapter 7: Triangles</a></li>
+      <li><a href="../pdfs/class9/maths/ch8-quadrilaterals.pdf" target="_blank">Chapter 8: Quadrilaterals</a></li>
+      <li><a href="../pdfs/class9/maths/ch9-areas-parallelograms.pdf" target="_blank">Chapter 9: Areas of Parallelograms and Triangles</a></li>
+      <li><a href="../pdfs/class9/maths/ch10-circles.pdf" target="_blank">Chapter 10: Circles</a></li>
+      <li><a href="../pdfs/class9/maths/ch11-constructions.pdf" target="_blank">Chapter 11: Constructions</a></li>
+      <li><a href="../pdfs/class9/maths/ch12-herons-formula.pdf" target="_blank">Chapter 12: Heron’s Formula</a></li>
+      <li><a href="../pdfs/class9/maths/ch13-surface-volumes.pdf" target="_blank">Chapter 13: Surface Areas and Volumes</a></li>
+      <li><a href="../pdfs/class9/maths/ch14-statistics.pdf" target="_blank">Chapter 14: Statistics</a></li>
+      <li><a href="../pdfs/class9/maths/ch15-probability.pdf" target="_blank">Chapter 15: Probability</a></li>
+    </ul>
+  </section>
+</body>
+
+</html>

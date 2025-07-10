@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PYQ Hub - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'SF Pro Display', sans-serif;
+      background-color: #000;
+      background-image: url('assets/wmremove-transformed (1).jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #000;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeInDown 1s ease-out;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .hero-section {
+      text-align: center;
+      padding: 10rem 2rem 6rem;
+      backdrop-filter: blur(8px);
+      animation: fadeIn 2s ease-in;
+    }
+
+    .hero-section h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .hero-section p {
+      font-size: 1.3rem;
+      color: #ccc;
+      max-width: 750px;
+      margin: 1.5rem auto 0;
+    }
+
+    .class-section {
+      padding: 6rem 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    .class-section h3 {
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .class-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .class-buttons a {
+      padding: 1.2rem 3.2rem;
+      font-size: 1.2rem;
+      border: 1px solid #444;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 40px;
+      transition: all 0.3s ease;
+    }
+
+    .class-buttons a:hover {
+      background-color: #fff;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    .cbse-section {
+      padding: 5rem 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      text-align: left;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 2.2s ease-in-out;
+      border-radius: 16px;
+      backdrop-filter: blur(8px);
+    }
+
+    .cbse-section h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .cbse-section ul {
+      padding-left: 1.5rem;
+      line-height: 2;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      padding: 2rem;
+      background-color: #000;
+      color: #888;
+      text-align: center;
+      font-size: 0.95rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      animation: fadeInUp 2.5s ease-in;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>PYQ Hub</h1>
+  </header>
+
+  <section class="hero-section">
+    <h2>Explore Past Papers with Clarity</h2>
+    <p>Seamless access to Previous Year Questions for CBSE and State Boards — fast, clean, and distraction-free.</p>
+  </section>
+
+  <section class="class-section">
+    <h3>Select Your Class</h3>
+    <div class="class-buttons">
+      
+      <a href="class9.html">Class 9</a>
+
+      <a href="#">Class 10</a>
+      <a href="#">Class 11</a>
+      <a href="#">Class 12</a>
+    </div>
+  </section>
+
+  <section class="cbse-section">
+    <h3>CBSE Exam Rules & Instructions</h3>
+    <ul>
+      <li>Students must carry their Admit Card to the examination center.</li>
+      <li>Reach the exam hall at least 30 minutes before the start time.</li>
+      <li>Electronic gadgets like mobile phones, smartwatches, and calculators are strictly prohibited.</li>
+      <li>Students must bring their own stationery. Borrowing during the exam is not allowed.</li>
+      <li>Any unfair means will lead to disqualification.</li>
+      <li>Follow instructions given by invigilators strictly.</li>
+      <li>Attempt all questions neatly and legibly.</li>
+      <li>Fill in the answer sheet carefully — especially roll number, subject code, etc.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Crafted by SP | Inspired by Apple UI | © 2025 PYQ Hub</p>
+  </footer>
+</body>
+
+</html>
